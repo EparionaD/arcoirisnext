@@ -1,0 +1,133 @@
+.servicios {
+  padding: 0 5%;
+  /* height: 100vh; */
+}
+
+@media (min-width: 992px) {
+  .servicios {
+    padding: 0;
+    padding: 0 5% 5% 5%;
+  }
+}
+
+.servicios__title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 3%;
+  text-transform: uppercase;
+}
+
+@media (min-width: 992px) {
+  .servicios__title {
+    text-align: start;
+  }
+}
+
+@media (min-width: 1440px) {
+  .servicios__title {
+    font-size: 2.5rem;
+  }
+}
+
+.servicios__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 15%;
+}
+
+@media (min-width: 992px) {
+  .servicios__container {
+    flex-direction: row;
+    padding-bottom: 0;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.servicios__servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  gap: 1rem;
+  z-index: -1;
+}
+
+@media (min-width: 992px) {
+  .servicios__servicios {
+    flex-direction: row;
+  }
+}
+
+.servicios__box {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios__box::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+@media (min-width: 992px) {
+  .servicios__box {
+    min-width: 264px;
+  }
+}
+@media (min-width: 1440px) {
+  .servicios__box {
+    min-width: 427px;
+    max-width: 532px;
+  }
+}
+
+.servicios__description,
+.servicios__text {
+  margin: 0;
+}
+
+.servicios__description {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .servicios__description {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1440px) {
+  .servicios__description {
+    font-size: 2rem;
+  }
+}
+
+.servicios__text {
+  line-height: 1.4rem;
+}
+@media (min-width: 992px) {
+  .servicios__text {
+    line-height: 1.6rem;
+  }
+}
+@media (min-width: 1440px) {
+  .servicios__text {
+    font-size: 1.5rem;
+  }
+}

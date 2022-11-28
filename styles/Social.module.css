@@ -1,0 +1,25 @@
+.social {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.social__links {
+}
+
+.social__facebook,
+.social__linkedin,
+.social__youtube {
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+}
+
+.social__facebook:hover {
+  color: var(--facebook);
+}
+.social__linkedin:hover {
+  color: var(--linkedin);
+}
+.social__youtube:hover {
+  color: var(--youtube);
+}

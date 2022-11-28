@@ -1,0 +1,14 @@
+.boton {
+  background-color: var(--primary);
+  padding: 0.6rem 0.8rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  display: inline-block;
+  font-size: 1.25rem;
+  border-radius: 5px;
+}
+.boton:hover {
+  background-color: var(--primaryHover);
+  transition: 0.3s;
+}

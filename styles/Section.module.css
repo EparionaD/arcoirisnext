@@ -1,0 +1,47 @@
+.gestion {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url('/img/gestion-index.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  padding: 0 5%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .gestion {
+    justify-content: end;
+    padding-bottom: 15%;
+  }
+}
+
+.gestion__title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2rem;
+  width: 100%;
+}
+@media (min-width: 1440px) {
+  .gestion__title {
+    font-size: 2.5rem;
+  }
+}
+
+.gestion__content {
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+@media (min-width: 992px) {
+  .gestion__content {
+    width: 60%;
+  }
+}
+@media (min-width: 1440px) {
+  .gestion__content {
+    font-size: 1.5rem;
+    width: 50%;
+  }
+}

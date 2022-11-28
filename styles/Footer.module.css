@@ -1,0 +1,102 @@
+.foo {
+  background-color: var(--footer);
+  padding: 10% 5%;
+  color: white;
+}
+.foo__container {
+  display: grid;
+}
+@media (min-width: 992px) {
+  .foo {
+    padding: 5% 5%;
+  }
+  .foo__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+@media (min-width: 1440px) {
+  .foo__container {
+    gap: 4rem;
+  }
+}
+
+.foo__logo {
+  cursor: pointer;
+  display: inline-block;
+  width: 140px;
+  height: 34px;
+}
+
+.foo__description {
+  font-size: 0.9rem;
+  margin-bottom: 10%;
+}
+
+.access__container {
+  margin-bottom: 10%;
+}
+
+.access__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 3%;
+}
+
+.access__link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  line-height: 2rem;
+}
+.access__link:hover {
+  color: wheat;
+}
+
+.contact {
+}
+
+.contact__group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact__title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact__container {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact__icon {
+  font-size: 1.5rem;
+  align-self: center;
+}
+
+.contact__content {
+  margin: 0;
+}
+
+.contact__mail {
+  color: white;
+  text-decoration: none;
+}
+
+.contact__mail:hover {
+  color: wheat;
+}
+
+.social {
+  margin: 0;
+  margin-top: 15%;
+}
+
+.copyright {
+  margin-top: 10%;
+  font-size: 0.9rem;
+}
