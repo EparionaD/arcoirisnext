@@ -98,13 +98,39 @@
   color: white;
 }
 
+@media (min-width: 992px) {
+  .equipo__content {
+    display: flex;
+    gap: 3rem;
+    margin: 5% 0;
+  }
+}
+
 .equipo__title {
   font-size: 2rem;
   font-weight: bold;
 }
 
+@media (min-width: 992px) {
+  .equipo__title {
+    width: 100%;
+  }
+}
+@media (min-width: 1440px) {
+  .equipo__title {
+    font-size: 2.25rem;
+    width: 50%;
+  }
+}
+
 .equipo__description {
   line-height: 1.4rem;
+}
+
+@media (min-width: 1440px) {
+  .equipo__description {
+    font-size: 1.25rem;
+  }
 }
 
 .nosotros__user {

@@ -44,6 +44,10 @@
   font-weight: bold;
 }
 
+.user__description {
+  margin: 7% 0;
+}
+
 .cv {
   margin-top: 15%;
   text-align: center;

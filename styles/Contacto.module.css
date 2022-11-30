@@ -1,0 +1,109 @@
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 7% 5%;
+}
+
+.container {
+  padding: 7% 0;
+  background-color: var(--fondo);
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 2rem;
+  }
+}
+
+.call {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 992px) {
+  .call {
+    margin-bottom: 0;
+  }
+}
+
+.call__title,
+.call__icon {
+  color: var(--primary);
+}
+.call__icon {
+  font-size: 5rem;
+}
+
+.call__title {
+  font: 1.5rem;
+  font-weight: bold;
+}
+
+.call__number {
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .call__number {
+    align-self: center;
+    text-align: start;
+  }
+}
+
+.call__write {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+@media (min-width: 992px) {
+  .call__write {
+    justify-content: start;
+  }
+}
+
+.call__text {
+  margin: 0;
+}
+
+.call__mail {
+  text-decoration: none;
+  color: black;
+}
+
+.call__mail:hover {
+  color: var(--primary);
+}
+
+.icon {
+  align-self: center;
+  font-size: 1.3rem;
+}
+
+.map {
+  padding: 5%;
+}
+
+.map__container {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+}
+
+@media (min-width: 992px) {
+  .location {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

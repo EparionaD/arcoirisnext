@@ -129,10 +129,54 @@ const nosotros = () => {
           </div>
         </div>
         <div className={styles.nosotros__user}>
-          <User />
-          <User />
-          <User />
-          <User />
+          <User
+            nombre='Luis Pariona Arana'
+            carrera='Comunicador y economista'
+            descripcion='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.'
+            email='lpariona@arcoiris.pe'
+            url='/'
+          />
+          <User
+            nombre='Omar Sapaico'
+            carrera='Comunicador'
+            descripcion='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.'
+            email='osapaico@arcoiris.pe'
+            url='/'
+          />
+          <User
+            nombre='Christian Ramírez'
+            carrera='Comunicador'
+            descripcion='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.'
+            email='cramirez@arcoiris.pe'
+            url='/'
+          />
+          <User
+            nombre='Cristian Jayos'
+            carrera='Comunicador'
+            descripcion='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.'
+            email='cjayos@arcoiris.pe'
+            url='/'
+          />
+          <User
+            nombre='Salvador Pariona'
+            carrera='Comunicador'
+            descripcion='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.'
+            email='spariona@arcoiris.pe'
+            url='/'
+          />
+          <User
+            nombre='Ernesto Pariona'
+            carrera='Informático'
+            descripcion='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.'
+            email='epariona@arcoiris.pe'
+            url='/'
+          />
         </div>
       </section>
       <Contact />
