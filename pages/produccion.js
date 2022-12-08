@@ -1,12 +1,9 @@
 import Layout from '../components/Layout';
 import Contact from '../components/Contact';
 import Card from '../components/Card';
-import Modal from '../components/Modal';
 import styles from '../styles/Produccion.module.css';
-import { useState } from 'react';
 
 const produccion = () => {
-  const [modal, setModal] = useState(false);
   return (
     <Layout
       pagina='Producción audiovisual'
