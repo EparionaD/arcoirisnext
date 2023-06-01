@@ -9,7 +9,10 @@ import { RiOilLine } from 'react-icons/ri';
 import { SlEnergy } from 'react-icons/sl';
 import User from '../components/User';
 
+import teams from '../utils/users.json';
+
 const nosotros = () => {
+  const users = teams.data;
   return (
     <Layout
       pagina='Nosotros'
@@ -129,7 +132,10 @@ const nosotros = () => {
           </div>
         </div>
         <div className={styles.nosotros__user}>
-          <User
+          {users.map((team) => (
+            <User team={team} key={team.id} />
+          ))}
+          {/* <User
             nombre='Luis Pariona Arana'
             carrera='Comunicador y economista'
             descripcion='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -176,7 +182,7 @@ const nosotros = () => {
             tempor incididunt ut labore et dolore magna aliqua.'
             email='epariona@arcoiris.pe'
             url='/'
-          />
+          /> */}
         </div>
       </section>
       <Contact />

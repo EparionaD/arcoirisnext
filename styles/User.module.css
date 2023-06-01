@@ -8,8 +8,7 @@
 }
 
 .user__photo {
-  font-size: 7.5rem;
-  color: var(--fondo1);
+  border-radius: 50%;
 }
 
 .contacto {
@@ -42,6 +41,7 @@
 .user__name {
   font-size: 1.5rem;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .user__description {
@@ -68,4 +68,26 @@
 .boton__icon {
   color: white;
   padding-right: 0.5rem;
+}
+.user__container {
+  width: 250px;
+  height: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+  .user__photo {
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1800px) {
 }
