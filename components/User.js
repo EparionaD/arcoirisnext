@@ -30,7 +30,10 @@ const User = ({ team }) => {
           </Link>
         </div>
         <div className={styles.cv}>
-          <Link href={`https://arcoirisnext.vercel.app${team.cv}`}>
+          <Link
+            href={`https://arcoirisnext.vercel.app${team.cv}`}
+            target='_blank'
+          >
             <a className={styles.boton}>
               <AiOutlineFileText className={styles.boton__icon} /> Ver CV
             </a>
