@@ -2,8 +2,10 @@ import Layout from '../components/Layout';
 import Contact from '../components/Contact';
 import Card from '../components/Card';
 import styles from '../styles/Produccion.module.css';
+import data from '../utils/projects.json';
 
 const produccion = () => {
+  const projects = data.data;
   return (
     <Layout
       pagina='Producción audiovisual'
@@ -16,14 +18,7 @@ const produccion = () => {
       margin='0'
       altur='auto'
     >
-      <section className={styles.produccion}>
-        <Card
-          fondo={`url('/img/home.jpg')`}
-          titulo='la danza del zorzal'
-          resumen='Largometraje documental sobre la danza del Huaylarsh del valle del
-          Mantaro'
-        />
-      </section>
+      <Card projects={projects} />
       <Contact nombre='otros servicios' />
     </Layout>
   );

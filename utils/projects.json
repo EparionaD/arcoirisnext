@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "LA DANZA DEL ZORZAL",
+      "summary": "Largometraje documental sobre la danza del Huaylarsh del valle del Mantaro",
+      "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1686092739/arcoiris/proyectos/danzadelzorzal/LA_DANZA_ZORZAL_RS.00_30_48_21.Imagen_fija023_psmizr.png",
+      "complete": {
+        "title": "LA DANZA DEL ZORZAL",
+        "description": "La Danza del Zorzal es un documental que muestra el Huaylarsh como la danza emblemática de la Región Centro del Perú. Ambientado en el Carnaval 2013 de la provincia de Huancayo, región Junín, el documental resalta el aspecto histórico, tradicional y moderno de esta práctica cultural. A través de entrevistas con expertos y participantes, se exploran las motivaciones y desafíos de los danzantes, maestros e investigadores, y se plantea la pregunta sobre cómo esta danza logra mantenerse relevante en el siglo XXI. La producción busca mostrar al mundo una cultura viva y promover la apreciación de las manifestaciones culturales a través de la combinación de investigación y arte.",
+        "video": "https://www.youtube.com/embed/VEb3VUf-qeE",
+        "videoImagen": "https://res.cloudinary.com/eparionad/image/upload/v1686094129/arcoiris/proyectos/danzadelzorzal/titulo_zorzal_2_dlzdvc.jpg",
+        "imagen": "https://res.cloudinary.com/eparionad/image/upload/v1686092457/arcoiris/proyectos/danzadelzorzal/LA_DANZA_ZORZAL_RS.00_14_48_03.Imagen_fija009_yhnwyw.png",
+        "imagen2": "https://res.cloudinary.com/eparionad/image/upload/v1686092458/arcoiris/proyectos/danzadelzorzal/LA_DANZA_ZORZAL_RS.01_16_27_11.Imagen_fija039_cwvypk.png",
+        "imagen3": "https://res.cloudinary.com/eparionad/image/upload/v1686092457/arcoiris/proyectos/danzadelzorzal/LA_DANZA_ZORZAL_RS.00_12_26_05.Imagen_fija005_mkti4k.png",
+        "imagen4": "https://res.cloudinary.com/eparionad/image/upload/v1686092457/arcoiris/proyectos/danzadelzorzal/LA_DANZA_ZORZAL_RS.00_04_27_14.Imagen_fija003_aeirxr.png"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Contratado",
+      "summary": "Es un cortometraje producido por Arco iris comunicación Integral",
+      "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1686094632/arcoiris/proyectos/contratado/fotograma02_ndcoro.png",
+      "complete": {
+        "title": "Contratado",
+        "description": "Es un cortometraje producido por Arco iris comunicación Integral que muestra a Jeffrey, un joven guitarrista, que debe componer una canción para una empresa. Sin embargo, el trabajo soñado se vuelve una pesadilla al no complacer a sus contratantes. La producción busca mostrar, a través de la fotografía y el guion, de forma onírica las dificultades a la que se debe enfrentar una persona en el mundo laboral.",
+        "video": "https://www.youtube.com/embed/j8dUwRRTQJA",
+        "videoImagen": "https://res.cloudinary.com/eparionad/image/upload/v1686094632/arcoiris/proyectos/contratado/fotograma02_ndcoro.png",
+        "imagen": "https://res.cloudinary.com/eparionad/image/upload/v1686094629/arcoiris/proyectos/contratado/fotograma01_eirnrf.jpg",
+        "imagen2": "https://res.cloudinary.com/eparionad/image/upload/v1686094630/arcoiris/proyectos/contratado/fotograma03_xqik68.png",
+        "imagen3": "https://res.cloudinary.com/eparionad/image/upload/v1686094630/arcoiris/proyectos/contratado/fotograma05_ojwvtf.png",
+        "imagen4": "https://res.cloudinary.com/eparionad/image/upload/v1686094630/arcoiris/proyectos/contratado/fotograma04_r2sv95.png"
+      }
+    }
+  ]
+}

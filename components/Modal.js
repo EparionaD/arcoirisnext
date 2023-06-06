@@ -3,8 +3,8 @@ import { IoMdClose } from 'react-icons/io';
 import Image from 'next/image';
 import { useState } from 'react';
 
-const Modal = ({ estado, cambiarEstado }) => {
-  const [imagen, setImagen] = useState('');
+const Modal = ({ estado, cambiarEstado, complete }) => {
+  const [imagen, setImagen] = useState(complete.video);
   return (
     <>
       {estado && (
@@ -43,36 +43,49 @@ const Modal = ({ estado, cambiarEstado }) => {
                     layout='responsive'
                     width={900}
                     height={700}
-                    src={'/img/medios.jpg'}
+                    src={complete.videoImagen}
                     className={styles.modal__image}
-                    onClick={() => setImagen('/img/medios.jpg')}
+                    onClick={() => setImagen(complete.video)}
                   />
                   <Image
                     layout='responsive'
                     width={900}
                     height={700}
-                    src={'/img/medios.jpg'}
+                    src={complete.imagen}
                     className={styles.modal__image}
-                    onClick={() =>
-                      setImagen('https://www.youtube.com/embed/jRxoO-Zd0pQ')
-                    }
+                    onClick={() => setImagen(complete.imagen)}
+                  />
+                  <Image
+                    layout='responsive'
+                    width={900}
+                    height={700}
+                    src={complete.imagen2}
+                    className={styles.modal__image}
+                    onClick={() => setImagen(complete.imagen2)}
+                  />
+                  <Image
+                    layout='responsive'
+                    width={900}
+                    height={700}
+                    src={complete.imagen3}
+                    className={styles.modal__image}
+                    onClick={() => setImagen(complete.imagen3)}
+                  />
+                  <Image
+                    layout='responsive'
+                    width={900}
+                    height={700}
+                    src={complete.imagen4}
+                    className={styles.modal__image}
+                    onClick={() => setImagen(complete.imagen4)}
                   />
                 </div>
               </div>
               <div className={styles.modal__text}>
-                <h3 className={styles.modal__title}>
-                  la danza del zorzal(2014)
-                </h3>
+                <h3 className={styles.modal__title}>{complete.title}</h3>
                 <div>
                   <p className={styles.modal__description}>
-                    Largometraje documental sobre la danza del Huaylarsh del
-                    Valle del Mantaro, representativa de la región de Junín y
-                    del Centro del Perú.
-                  </p>
-                  <p className={styles.modal__description}>
-                    Se hace un recuento histórico y se consulta a danzantes,
-                    historiadores y folkloristas sobre las características y
-                    evolución del Huaylarsh moderno y antiguo.
+                    {complete.description}
                   </p>
                 </div>
               </div>
