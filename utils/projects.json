@@ -3,8 +3,10 @@
     {
       "id": "1",
       "title": "LA DANZA DEL ZORZAL",
+      "slug": "danza",
       "summary": "Largometraje documental sobre la danza del Huaylarsh del valle del Mantaro",
       "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1686092739/arcoiris/proyectos/danzadelzorzal/LA_DANZA_ZORZAL_RS.00_30_48_21.Imagen_fija023_psmizr.png",
+      "video1": "https://www.youtube.com/embed/VEb3VUf-qeE",
       "complete": {
         "title": "LA DANZA DEL ZORZAL",
         "description": "La Danza del Zorzal es un documental que muestra el Huaylarsh como la danza emblemática de la Región Centro del Perú. Ambientado en el Carnaval 2013 de la provincia de Huancayo, región Junín, el documental resalta el aspecto histórico, tradicional y moderno de esta práctica cultural. A través de entrevistas con expertos y participantes, se exploran las motivaciones y desafíos de los danzantes, maestros e investigadores, y se plantea la pregunta sobre cómo esta danza logra mantenerse relevante en el siglo XXI. La producción busca mostrar al mundo una cultura viva y promover la apreciación de las manifestaciones culturales a través de la combinación de investigación y arte.",
@@ -19,8 +21,10 @@
     {
       "id": "2",
       "title": "Contratado",
+      "slug": "contratado",
       "summary": "Es un cortometraje producido por Arco iris comunicación Integral",
       "fondo": "https://res.cloudinary.com/eparionad/image/upload/v1686094632/arcoiris/proyectos/contratado/fotograma02_ndcoro.png",
+      "video1": "https://www.youtube.com/embed/j8dUwRRTQJA",
       "complete": {
         "title": "Contratado",
         "description": "Es un cortometraje producido por Arco iris comunicación Integral que muestra a Jeffrey, un joven guitarrista, que debe componer una canción para una empresa. Sin embargo, el trabajo soñado se vuelve una pesadilla al no complacer a sus contratantes. La producción busca mostrar, a través de la fotografía y el guion, de forma onírica las dificultades a la que se debe enfrentar una persona en el mundo laboral.",
