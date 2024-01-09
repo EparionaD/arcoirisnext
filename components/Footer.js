@@ -52,7 +52,7 @@ const Footer = () => {
             <span className={styles.contact__container}>
               <FaPhoneAlt />
               <p className={styles.contact__content}>
-                (+51) 9XX XXX XXX - 9XX XXX XXX
+                (+51) 968 794 300 - 953 124 260
               </p>
             </span>
             <span className={styles.contact__container}>
