@@ -28,8 +28,8 @@ const contacto = () => {
             <p className={styles.call__title}>LLámanos</p>
           </div>
           <div className={styles.call__number}>
-            <p>+51 9XX XXX XXX</p>
-            <p>+51 9XX XXX XXX</p>
+            <p>+51 968 794 300</p>
+            <p>+51 953 124 260</p>
           </div>
         </div>
         <div className={styles.container}>
@@ -52,14 +52,14 @@ const contacto = () => {
                 className={styles.icon}
                 style={{ color: `#43d854` }}
               />
-              <p className={styles.call__text}>+51 9XX XXX XXX</p>
+              <p className={styles.call__text}>+51 968 794 300</p>
             </div>
             <div className={styles.call__write}>
               <FaTelegram
                 className={styles.icon}
                 style={{ color: `#00405d` }}
               />
-              <p className={styles.call__text}>+51 9XX XXX XXX</p>
+              <p className={styles.call__text}>+51 953 124 260</p>
             </div>
           </div>
         </div>
