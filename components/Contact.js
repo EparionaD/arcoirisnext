@@ -20,12 +20,12 @@ const Contact = () => {
           <FiPhoneCall className={styles.group__icon} />
           <h5 className={styles.group__title}>llámanos</h5>
           <Button
-            nombre='+51 9XX XXX XXX'
+            nombre='+51 968 794 300'
             tam='.9rem'
             url='https://api.whatsapp.com/send?phone=519xx9xx9xx'
           />
           <Button
-            nombre='+51 9XX XXX XXX'
+            nombre='+51 953 124 260'
             tam='.9rem'
             url='https://api.whatsapp.com/send?phone=519xx9xx9xx'
           />
