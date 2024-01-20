@@ -29,7 +29,7 @@ const User = ({ team }) => {
             <a className={styles.contacto__link}>{team.email}</a>
           </Link>
         </div>
-        <div className={styles.cv}>
+        {/* <div className={styles.cv}>
           <Link
             href={`https://arcoirisnext.vercel.app${team.cv}`}
             target='_blank'
@@ -38,7 +38,7 @@ const User = ({ team }) => {
               <AiOutlineFileText className={styles.boton__icon} /> Ver CV
             </a>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
