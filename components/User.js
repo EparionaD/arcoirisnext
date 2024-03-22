@@ -20,7 +20,7 @@ const User = ({ team }) => {
       </div>
       <h1 className={styles.user__name}>{team.name}</h1>
       <p>{team.job}</p>
-      <p className={styles.user__description}>{team.summary}</p>
+      {/* <p className={styles.user__description}>{team.summary}</p> */}
       <div className={styles.contacto}>
         <p className={styles.contacto__title}>Contacto</p>
         <div className={styles.contacto__email}>
